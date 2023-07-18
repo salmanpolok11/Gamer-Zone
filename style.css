@@ -9,6 +9,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-family: 'Work Sans', sans-serif;
+  
 }
 
 
@@ -74,14 +75,14 @@ body {
   justify-content:space-between;
   max-width: 100%;
   text-align: center;
-  background-size: contain;
+  background-size:cover;
   margin: 0 auto;
 
 }
 .bannar-img img{
   width:50%;
   height: 700px;
-  margin-right: 250px;
+  margin-right: 270px;
 }
 
 .bannar-title{
@@ -185,4 +186,120 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: 45px; /* 187.5% */
+}
+
+/* card releted style */
+
+.card-containar{
+  display:flex;
+  justify-content: center;
+  gap: 24px;
+}
+.card-section-title{
+  text-align: center;
+  margin-top: 120px;
+}
+.card-title{
+  color: #0B0223;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-title span{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-des{
+  color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+margin-bottom: 48px;
+}
+
+.card-content h6{
+  width: 342px;
+  color: #534C64;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px; 
+}
+
+.card-content img:hover{
+  border: 8px solid #F948B2;
+  transform:  scale(1.1);
+  transition: all 1s linear 0.5s;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* rectangle-section releted style */
+
+.rectangle-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+
+}
+.rectangle-section h1{
+  text-align: right;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px; 
+}
+
+.rectangle-section span{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.rectangle-section p{
+  width: 353px;
+  color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+.box-img{
+  position: relative;
+  bottom: 200px;
+  right: 150px;
+  max-width: 318.5px;
+height: 365.083px;
+border-radius: 8px;
+border: 10px solid #FFF;
+background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+}
+
+.jonra-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.box:hover{
+  border: 2px solid  #fb0b87;
+  padding: 10px;
+  border-radius: 50px;
+  transform: scale(1.2);
+  transition: 1s;
 }
