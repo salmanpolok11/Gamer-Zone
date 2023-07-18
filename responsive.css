@@ -1,0 +1,28 @@
+@media screen and (max-width:576px) {
+   
+  .nav-content,
+  .nav-menus {
+    flex-direction: column;
+  } 
+
+  .nav-containar{
+    background: #fff;
+    box-shadow: inset;
+  }
+
+
+  .nav-content {
+    background-color: white;
+    max-width: 100%;
+    height:auto;
+  }
+.nav-menus{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  
+}
+
+
+}
