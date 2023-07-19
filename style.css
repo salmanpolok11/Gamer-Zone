@@ -286,13 +286,16 @@ background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repe
 
 .jonra-section{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 50px;
 }
 .box{
   display: flex;
   align-items: center;
   gap: 15px;
+  border-radius: 50px;
+background: #FFF;
 
 }
 
@@ -302,4 +305,75 @@ background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repe
   border-radius: 50px;
   transform: scale(1.2);
   transition: 1s;
+}
+
+/* footer releted style */
+
+.footer-section{
+  width: 1920px;
+height: 636px;
+background: #0B0223;
+margin-top: 150px;
+}
+
+.footer-title{
+  color: #FFF;
+font-size: 45px;
+font-weight: 700;
+}
+.about-list{
+  display:flex;
+  justify-content: center;
+  gap: 60px;
+ 
+}
+.about-list h6{
+  color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.footer-icon{
+  text-align: center;
+  margin-top: 66px;
+ width: 100%;
+}
+.footer-icon .fa-brands{
+  margin-right: 40px;
+ font-size: 70px;
+ gap: 40px;
+}
+
+.footer-service{
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 60px;
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+}
+
+.end-item{
+  text-align: center;
+  margin-top: 28px;
+  color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 500;
+}
+
+.footer-name{
+  text-align: center;
+  margin-top: 30px;
+font-size: 1.4rem;
+font-weight: 50;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
 }
